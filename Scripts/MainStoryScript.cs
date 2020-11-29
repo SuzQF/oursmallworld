@@ -560,7 +560,7 @@ public class MainStoryScript : PerformanceManagerBase
 
 					//艾文向右移动走出客厅
 					Debug.Log("艾文向右移动走出客厅");
-					ArvinRoleController.RoleMove(new Vector3(8.438f, -4, 0));
+					ArvinRoleController.RoleMove(new Vector3(8.79f, -4, 0));
 
 					waitSeconds = 1.3f;
 					break;

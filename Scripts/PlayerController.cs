@@ -106,11 +106,11 @@ public class PlayerController : MonoBehaviour {
 	/// 角色转身sprite控制
 	/// </summary>
 	private void SpriteTurnControl() {
-		if (Input.GetKeyDown(KeyCode.A) && GetComponent<SpriteRenderer>().flipX == true) {
-			GetComponent<SpriteRenderer>().flipX = false;
-		}
-		if (Input.GetKeyDown(KeyCode.D) && GetComponent<SpriteRenderer>().flipX == false) {
+		if (Input.GetKeyDown(KeyCode.A) && GetComponent<SpriteRenderer>().flipX == false) {
 			GetComponent<SpriteRenderer>().flipX = true;
+		}
+		if (Input.GetKeyDown(KeyCode.D) && GetComponent<SpriteRenderer>().flipX == true) {
+			GetComponent<SpriteRenderer>().flipX = false;
 		}
 	}
 
